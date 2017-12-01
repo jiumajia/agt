@@ -11,13 +11,12 @@ import random
 
 
 def insert_sort(unsorted_list):
-
     new_list = [unsorted_list[0]]
     for num in unsorted_list[1:]:
         flag = 0
         for index, position in enumerate(new_list):
             if num <= position:
-                flag = 1
+                flag = 1   # cause last number in new_list,use break can not easy get the index
                 break
         if flag:
             new_list.insert(index, num)
