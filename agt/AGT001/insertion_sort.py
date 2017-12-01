@@ -1,5 +1,6 @@
 import random
 
+# 使用PYTHON 进行插入排序
 # insertion sort T=O(n^2)
 # origin = [4,5,2,7]
 # init : origin = [4,5,2,7] new = [4]
